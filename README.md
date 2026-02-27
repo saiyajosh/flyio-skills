@@ -26,9 +26,16 @@ A full-featured skill for using [flyctl](https://fly.io/docs/flyctl/), Fly.io's 
 - CI/CD with GitHub Actions
 - Multi-environment management (staging vs. production)
 
-## Usage
+## Installation
 
-Install a skill by copying the contents of a `SKILL.md` file into your Claude Code project's skills configuration, or reference it directly as a custom skill.
+Install skills using the [`skills` npm package](https://skills.sh):
+
+```bash
+npx skills add https://github.com/saiyajosh/flyio-skills --skill flyctl
+```
+
+Or browse and install from the skills registry:
+[skills.sh/saiyajosh/flyio-skills/flyctl](https://skills.sh/saiyajosh/flyio-skills/flyctl)
 
 ## Structure
 
